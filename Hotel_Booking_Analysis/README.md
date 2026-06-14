@@ -1,74 +1,96 @@
 # Hotel Booking Analysis
 
-## Overview
+## Project Overview
 
-This repository contains a data exploration and analysis project for hotel bookings recorded from a travel platform. The goal is to uncover customer booking behavior, cancellation drivers, and revenue opportunities using structured analytical methods.
+This repository delivers a polished exploratory data analysis of hotel bookings from an online travel dataset. The study reveals booking patterns, cancellation drivers, channel performance, and revenue opportunity areas to support better decision-making.
 
-## Project Goals
+---
 
-- Analyze booking volume and seasonality
-- Understand guest cancellation trends
-- Compare performance by distribution channel, room type, and hotel segment
-- Derive data-backed recommendations for revenue management and customer retention
+## Project Snapshot
 
-## Dataset
+- **Dataset:** `data/Trav_clan(Hotel_bookings_final).csv`
+- **Records:** ~30,000
+- **Focus areas:** channel performance, cancellation risk, room type demand, seasonality, revenue mix
+- **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
-- File: `data/Trav_clan(Hotel_bookings_final).csv`
-- Approximate records: 30,000
-- Typical features: booking date, arrival date, hotel type, market segment, distribution channel, customer type, room type, stays, and cancellation status
-
-## Tools & Technologies
-
-- Python 3.x
-- Pandas for data manipulation
-- NumPy for numerical calculations
-- Matplotlib and Seaborn for visualization
-- Jupyter Notebook for exploratory analysis
-
-## Analysis Workflow
-
-1. Data ingestion and validation
-2. Data cleaning and feature preparation
-3. Exploratory data analysis (EDA) across booking, cancellation, and revenue metrics
-4. Channel and room-type performance comparison
-5. Insights generation and business-focused recommendations
+---
 
 ## Key Insights
 
-- `Web` channel leads total bookings, revenue, and profitability.
-- `Travel Agent` bookings have the highest cancellation rate, which impacts revenue reliability.
-- `Standard` rooms represent the majority of bookings, making them a key focus area.
-- `4-star` hotels contribute the most revenue, indicating strong demand for mid-range premium stays.
-- `April` is the busiest booking month, suggesting important seasonality for marketing and pricing.
+- The **Web channel** delivers the highest booking volume and revenue share.
+- **Travel Agent** bookings show the worst cancellation performance.
+- **Standard room types** are the most frequently booked segment.
+- **4-star hotels** drive the strongest revenue contribution.
+- **April** emerges as the busiest month for booking demand.
 
-## Recommendations
+---
 
-- Prioritize digital marketing and booking experience improvements for the Web channel.
-- Evaluate Travel Agent commission and booking policies to reduce cancelation exposure.
-- Build stronger incentives for non-refundable and advance purchase booking options.
-- Expand loyalty offers and targeted retention programs for repeat guests.
-- Use seasonal pricing and inventory models around peak months such as April.
+## Professional Result Gallery
 
-## Project Structure
+### Booking Trends
 
-- `data/` — raw dataset files
-- `notebook/` — Jupyter notebook with analysis, visualizations, and findings
-- `report/` — final summaries, charts, or presentation materials
-- `output/` — exported figures or result tables
+![Monthly Booking Trend](output/monthly_booking_trend.png)
 
-## How to Run
+### Channel Performance & Cancellation Risk
+
+![Bookings by Channel](output/bookings_by_channel.png)
+
+![Cancellation by Channel](output/cancellation_by_channel.png)
+
+### Revenue and Room Mix
+
+![Revenue by Star Rating](output/revenue_by_star_rating.png)
+
+![Room Type Distribution](output/room_type_distribution.png)
+
+---
+
+## Analysis Approach
+
+1. Load and validate the dataset
+2. Clean and engineer features for consistency
+3. Perform exploratory data analysis (EDA)
+4. Compare booking and cancellation patterns across channels
+5. Extract business insights and create practical recommendations
+
+---
+
+## Business Recommendations
+
+- Strengthen the **Web sales channel** with targeted promotions and user experience improvements.
+- Reassess **Travel Agent agreements** and cancellation policies to reduce revenue leakage.
+- Promote **standard room upsell** opportunities and loyalty incentives.
+- Optimize pricing for **4-star inventory** during high-demand periods.
+- Prepare seasonal marketing and pricing actions around **April** and other peak months.
+
+---
+
+## Repository Structure
+
+- `data/` — dataset source files
+- `notebook/` — exploratory analysis notebook
+- `output/` — visualization assets and generated charts
+- `report/` — executive summaries or presentation-ready deliverables
+
+---
+
+## Getting Started
 
 1. Create or activate a Python virtual environment.
 2. Install dependencies from `requirements.txt`.
 3. Open `notebook/Hotel_Booking_Analysis.ipynb`.
-4. Execute the notebook cells in order to reproduce the analysis.
+4. Run the notebook cells sequentially to reproduce the analysis.
+
+---
 
 ## Notes
 
-- Confirm the dataset filename and path before running.
-- Add or refresh dependency versions in `requirements.txt` as needed.
-- Use the notebook visuals to validate the business recommendations.
+- Verify the dataset path before running the notebook.
+- Update `requirements.txt` if library versions change.
+- Use the exported charts in `output/` for executive summaries.
+
+---
 
 ## Contact
 
-For questions or follow-up improvements, review the notebook or contact the project owner.
+If you have questions or want to extend the analysis, refer to the notebook or reach out to the project owner.
