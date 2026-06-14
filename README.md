@@ -118,6 +118,6 @@ Hotel_Booking_Analysis/
 
 ### Author
 
-**Prince Singh**
+**Saurabh Sharma**
 
 Data Analysis | Python | Business Intelligence
